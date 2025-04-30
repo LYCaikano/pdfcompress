@@ -30,7 +30,7 @@ compressBtn.addEventListener("click", async () => {
     canvas.height = vp.height;
     await page.render({ canvasContext: canvas.getContext("2d"), viewport: vp }).promise;
 
-    const imgData = canvas.toDataURL("image/jpeg", 0.8);
+    const imgData = canvas.toDataURL("image/jpeg", 0.9);
 
     const jpgImage = await pdfDoc.embedJpg(imgData);
     const imgDims = jpgImage.scale(1);
