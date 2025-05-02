@@ -219,9 +219,12 @@ button:hover {
   }
 
   #main-form {
-    margin-top: 80px;
-    padding: 30px 20px;
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 20px;
     border-radius: 20px;
+    margin-top: 190px;
+    margin-bottom: 20px;
   }
 
   .custom-file-button,
